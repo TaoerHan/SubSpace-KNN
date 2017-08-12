@@ -142,15 +142,3 @@ if __name__ == '__main__':
 	print(probay[0:5])
 	print(clf.class_weight)
 	print('Time',time.clock()-T,"ACC: ", sum(py==te_y)/len(py))
-
-
-# ==========================
-# 1 --------------
-# @jit
-# train samples  26677 -- test samples 13323 -- K = 10
-# ACC:  1.0
-# [Finished in 114.5s]
-# 2 --------------
-# train samples  26677 -- test samples 13323 -- K = 10
-# ACC:  1.0
-# [Finished in 112.7s]
